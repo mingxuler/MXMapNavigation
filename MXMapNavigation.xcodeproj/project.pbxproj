@@ -15,6 +15,10 @@
 		B7407C791EC4031F0063D86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7407C771EC4031F0063D86C /* LaunchScreen.storyboard */; };
 		B7407C841EC4031F0063D86C /* MXMapNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7407C831EC4031F0063D86C /* MXMapNavigationTests.m */; };
 		B7407C8F1EC403200063D86C /* MXMapNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7407C8E1EC403200063D86C /* MXMapNavigationUITests.m */; };
+		B7407CA11EC404290063D86C /* AnnotationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7407C9E1EC404290063D86C /* AnnotationModel.m */; };
+		B7407CA21EC404290063D86C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7407CA01EC404290063D86C /* MapViewController.m */; };
+		B7407CAB1EC410E50063D86C /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = B7407CA71EC410E50063D86C /* Contents.json */; };
+		B7407CAC1EC410E50063D86C /* 导航@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7407CA81EC410E50063D86C /* 导航@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		B7407C8A1EC403200063D86C /* MXMapNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXMapNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7407C8E1EC403200063D86C /* MXMapNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXMapNavigationUITests.m; sourceTree = "<group>"; };
 		B7407C901EC403200063D86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7407C9D1EC404290063D86C /* AnnotationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationModel.h; sourceTree = "<group>"; };
+		B7407C9E1EC404290063D86C /* AnnotationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationModel.m; sourceTree = "<group>"; };
+		B7407C9F1EC404290063D86C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B7407CA01EC404290063D86C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B7407CA71EC410E50063D86C /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		B7407CA81EC410E50063D86C /* 导航@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导航@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +111,14 @@
 		B7407C681EC4031F0063D86C /* MXMapNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				B7407C9C1EC404290063D86C /* MXMapNav */,
 				B7407C6C1EC4031F0063D86C /* AppDelegate.h */,
 				B7407C6D1EC4031F0063D86C /* AppDelegate.m */,
 				B7407C6F1EC4031F0063D86C /* ViewController.h */,
 				B7407C701EC4031F0063D86C /* ViewController.m */,
 				B7407C721EC4031F0063D86C /* Main.storyboard */,
 				B7407C751EC4031F0063D86C /* Assets.xcassets */,
+				B7407CA61EC410E50063D86C /* map_nav.imageset */,
 				B7407C771EC4031F0063D86C /* LaunchScreen.storyboard */,
 				B7407C7A1EC4031F0063D86C /* Info.plist */,
 				B7407C691EC4031F0063D86C /* Supporting Files */,
@@ -138,6 +150,26 @@
 				B7407C901EC403200063D86C /* Info.plist */,
 			);
 			path = MXMapNavigationUITests;
+			sourceTree = "<group>";
+		};
+		B7407C9C1EC404290063D86C /* MXMapNav */ = {
+			isa = PBXGroup;
+			children = (
+				B7407C9D1EC404290063D86C /* AnnotationModel.h */,
+				B7407C9E1EC404290063D86C /* AnnotationModel.m */,
+				B7407C9F1EC404290063D86C /* MapViewController.h */,
+				B7407CA01EC404290063D86C /* MapViewController.m */,
+			);
+			path = MXMapNav;
+			sourceTree = "<group>";
+		};
+		B7407CA61EC410E50063D86C /* map_nav.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				B7407CA71EC410E50063D86C /* Contents.json */,
+				B7407CA81EC410E50063D86C /* 导航@2x.png */,
+			);
+			path = map_nav.imageset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7407CAC1EC410E50063D86C /* 导航@2x.png in Resources */,
 				B7407C791EC4031F0063D86C /* LaunchScreen.storyboard in Resources */,
 				B7407C761EC4031F0063D86C /* Assets.xcassets in Resources */,
 				B7407C741EC4031F0063D86C /* Main.storyboard in Resources */,
+				B7407CAB1EC410E50063D86C /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7407CA11EC404290063D86C /* AnnotationModel.m in Sources */,
 				B7407C711EC4031F0063D86C /* ViewController.m in Sources */,
+				B7407CA21EC404290063D86C /* MapViewController.m in Sources */,
 				B7407C6E1EC4031F0063D86C /* AppDelegate.m in Sources */,
 				B7407C6B1EC4031F0063D86C /* main.m in Sources */,
 			);

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "713202BE468D46AF75668D85EDD4BD24A8D0690E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F1F63B8272CE7B56590AFFE95F89BCF193CC5C5" : 9223372036854775807,
+    "713202BE468D46AF75668D85EDD4BD24A8D0690E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "18513DA2-FE66-4315-AACB-1E19B8357172",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F1F63B8272CE7B56590AFFE95F89BCF193CC5C5" : "",
+    "713202BE468D46AF75668D85EDD4BD24A8D0690E" : "MXMapNavigation\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MXMapNavigation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MXMapNavigation.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mingxuler\/MXMapNavigation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "713202BE468D46AF75668D85EDD4BD24A8D0690E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mingxuler\/lewis.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F1F63B8272CE7B56590AFFE95F89BCF193CC5C5"
+    }
+  ]
+}
